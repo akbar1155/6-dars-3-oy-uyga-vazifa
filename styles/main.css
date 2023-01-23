@@ -1,1 +1,407 @@
-/*# sourceMappingURL=main.css.map */
+.container {
+  width: 1250px;
+  margin: 0 auto;
+}
+
+.df {
+  display: flex;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  justify-content: space-between;
+  align-items: center;
+  width: 1150px;
+  margin: 0 auto;
+  background-color: #f2f2f2;
+}
+.header__button2 > fa-bars {
+  color: #333333;
+}
+.header__button {
+  height: 16px;
+  left: 14%;
+  right: 13.33%;
+  top: calc(50% - 8px);
+  font-family: "LexendDeca";
+  font-size: 13px;
+  line-height: 15px;
+  /* identical to box height */
+  letter-spacing: -0.1px;
+  color: #FFFFFF;
+}
+.header__nav {
+  justify-content: space-between;
+  align-items: center;
+}
+.header__nav__a {
+  height: 25px;
+  left: 9.37%;
+  right: 82.72%;
+  top: calc(50% - 12.5px + 0.5px);
+  font-family: "LexendDeca";
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: -0.3125px;
+  color: #575757;
+}
+.header__nav__ul {
+  gap: 40px;
+  margin-left: 94px;
+}
+.header__nav__ul__li1 {
+  height: 16px;
+  left: 0%;
+  right: 88.48%;
+  top: calc(50% - 8px - 0.5px);
+  font-family: "LexendDeca";
+  font-size: 16px;
+  line-height: 15px;
+  /* identical to box height */
+  letter-spacing: -0.1px;
+  color: #333333;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+.button {
+  background: #8C8C8C;
+  border-radius: 22px;
+  border: none;
+  height: 44px;
+  width: 150px;
+}
+
+/* lexend-deca-100 - latin */
+@font-face {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 100;
+  src: local(""), url("../fonts/lexend-deca-v17-latin-100.woff2") format("woff2"), url("../fonts/lexend-deca-v17-latin-100.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* lexend-deca-200 - latin */
+@font-face {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 200;
+  src: local(""), url("../fonts/lexend-deca-v17-latin-200.woff2") format("woff2"), url("../fonts/lexend-deca-v17-latin-200.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* lexend-deca-300 - latin */
+@font-face {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 300;
+  src: local(""), url("../fonts/lexend-deca-v17-latin-300.woff2") format("woff2"), url("../fonts/lexend-deca-v17-latin-300.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* lexend-deca-regular - latin */
+@font-face {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/lexend-deca-v17-latin-regular.woff2") format("woff2"), url("../fonts/lexend-deca-v17-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* lexend-deca-500 - latin */
+@font-face {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 500;
+  src: local(""), url("../fonts/lexend-deca-v17-latin-500.woff2") format("woff2"), url("../fonts/lexend-deca-v17-latin-500.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* lexend-deca-700 - latin */
+@font-face {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/lexend-deca-v17-latin-700.woff2") format("woff2"), url("../fonts/lexend-deca-v17-latin-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* lexend-deca-600 - latin */
+@font-face {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 600;
+  src: local(""), url("../fonts/lexend-deca-v17-latin-600.woff2") format("woff2"), url("../fonts/lexend-deca-v17-latin-600.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* lexend-deca-900 - latin */
+@font-face {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 900;
+  src: local(""), url("../fonts/lexend-deca-v17-latin-900.woff2") format("woff2"), url("../fonts/lexend-deca-v17-latin-900.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* lexend-deca-800 - latin */
+@font-face {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 800;
+  src: local(""), url("../fonts/lexend-deca-v17-latin-800.woff2") format("woff2"), url("../fonts/lexend-deca-v17-latin-800.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* lexend-deca-100 - latin */
+@font-face {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 100;
+  src: local(""), url("../fonts/lexend-deca-v17-latin-100.woff2") format("woff2"), url("../fonts/lexend-deca-v17-latin-100.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* lexend-deca-200 - latin */
+@font-face {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 200;
+  src: local(""), url("../fonts/lexend-deca-v17-latin-200.woff2") format("woff2"), url("../fonts/lexend-deca-v17-latin-200.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* lexend-deca-300 - latin */
+@font-face {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 300;
+  src: local(""), url("../fonts/lexend-deca-v17-latin-300.woff2") format("woff2"), url("../fonts/lexend-deca-v17-latin-300.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* lexend-deca-regular - latin */
+@font-face {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/lexend-deca-v17-latin-regular.woff2") format("woff2"), url("../fonts/lexend-deca-v17-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* lexend-deca-500 - latin */
+@font-face {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 500;
+  src: local(""), url("../fonts/lexend-deca-v17-latin-500.woff2") format("woff2"), url("../fonts/lexend-deca-v17-latin-500.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* lexend-deca-700 - latin */
+@font-face {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/lexend-deca-v17-latin-700.woff2") format("woff2"), url("../fonts/lexend-deca-v17-latin-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* lexend-deca-600 - latin */
+@font-face {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 600;
+  src: local(""), url("../fonts/lexend-deca-v17-latin-600.woff2") format("woff2"), url("../fonts/lexend-deca-v17-latin-600.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* lexend-deca-900 - latin */
+@font-face {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 900;
+  src: local(""), url("../fonts/lexend-deca-v17-latin-900.woff2") format("woff2"), url("../fonts/lexend-deca-v17-latin-900.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* lexend-deca-800 - latin */
+@font-face {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 800;
+  src: local(""), url("../fonts/lexend-deca-v17-latin-800.woff2") format("woff2"), url("../fonts/lexend-deca-v17-latin-800.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+body {
+  font-family: "Lexend Deca";
+  background-color: #F2F2F2;
+}
+
+.section1-1 {
+  background-color: white;
+  margin-top: 2%;
+  height: 600px;
+  justify-content: space-between;
+}
+.section1-1__div1 > button {
+  margin-left: 50px;
+}
+.section1-1__img {
+  position: relative;
+}
+.section1-1__div1__h1 {
+  height: 128px;
+  left: 0%;
+  width: 450px;
+  right: -0.21%;
+  top: calc(50% - 64px - 40px);
+  margin-top: 40%;
+  margin-left: 50px;
+  font-family: "LexendDeca";
+  font-size: 56px;
+  line-height: 64px;
+  /* or 114% */
+  letter-spacing: -0.875px;
+  color: #575757;
+}
+.section1-1__div1__p {
+  margin-left: 50px;
+  height: 56px;
+  width: 310px;
+  left: 0%;
+  right: 20%;
+  top: calc(50% - 28px + 76px);
+  font-family: "LexendDeca";
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+  letter-spacing: -0.28125px;
+  color: #575757;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+.ml {
+  margin-left: 50px;
+}
+
+.section2 {
+  margin-top: -30px;
+}
+.section2__h2 {
+  height: 40px;
+  left: 0%;
+  right: 33.33%;
+  top: calc(50% - 20px - 40px);
+  margin-top: 120px;
+  font-family: "LexendDeca";
+  font-size: 32px;
+  line-height: 38px;
+  letter-spacing: -0.5px;
+  color: #575757;
+}
+.section2__p1 {
+  height: 56px;
+  width: 520px;
+  height: 56px;
+  left: 0%;
+  right: 0%;
+  top: calc(50% - 28px + 32px);
+  font-family: "LexendDeca";
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+  letter-spacing: -0.28125px;
+  color: #575757;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+.section2__div1 {
+  margin-top: 50px;
+}
+.section2__div1__div2 {
+  margin-top: 50px;
+  margin-right: 40px;
+}
+.section2__div1__div2__h3 {
+  height: 19px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  left: 0%;
+  right: 38.82%;
+  top: calc(50% - 9.5px - 4.5px);
+  font-family: "LexendDeca";
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: -0.234375px;
+  color: #575757;
+}
+.section2__div1__div2__p {
+  width: 255px;
+  height: 75px;
+  left: 0%;
+  right: 0%;
+  top: calc(50% - 37.5px + 66.5px);
+  font-family: "LexendDeca";
+  font-size: 18px;
+  line-height: 25px;
+  /* or 167% */
+  letter-spacing: -0.234375px;
+  color: #575757;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+.section5 {
+  background-color: white;
+  margin-top: 50px;
+}
+.section5__h4 {
+  height: 40px;
+  padding-top: 70px;
+  margin-left: 100px;
+  left: 0%;
+  right: 84.05%;
+  top: calc(50% - 20px - 213px);
+  font-family: "LexendDeca";
+  font-size: 32px;
+  line-height: 38px;
+  letter-spacing: -0.5px;
+  color: #575757;
+}
+
+.section3___di1__p1 {
+  height: 15px;
+  left: 0%;
+  right: 24.64%;
+  top: calc(50% - 7.5px - 76px);
+  font-family: "LexendDeca";
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: -0.1875px;
+  color: #575757;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+.section3___di1__h4 {
+  height: 19px;
+  left: 0%;
+  right: 24.64%;
+  top: calc(50% - 9.5px - 42px);
+  font-family: "LexendDeca";
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: -0.234375px;
+  color: #8d2020;
+}
+.section3___di1__p2 {
+  height: 100px;
+  left: 0%;
+  right: 0%;
+  top: calc(50% - 50px + 33.5px);
+  font-family: "LexendDeca";
+  font-size: 15px;
+  line-height: 25px;
+  /* or 167% */
+  letter-spacing: -0.234375px;
+  color: #575757;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+@media only screen and (max-width: 650px) {
+  .header__nav__ul {
+    display: none;
+  }
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,78 @@
+.header {
+    // margin-top: -22%;
+    justify-content: space-between;
+    align-items: center;
+    width: 1150px;
+
+    // position: fixed;
+    // z-index: 999;
+    // width: 1250px;
+    margin: 0 auto;
+    background-color: #f2f2f2;
+    &__button2>fa-bars{
+        color: #333333;
+        
+    }
+    &__button {
+        height: 16px;
+        left: 14%;
+        right: 13.33%;
+        top: calc(50% - 16px/2);
+
+        font-family: 'LexendDeca';
+        font-size: 13px;
+        line-height: 15px;
+        /* identical to box height */
+
+        letter-spacing: -0.1px;
+
+        color: #FFFFFF;
+
+    }
+
+    &__nav {
+        justify-content: space-between;
+        align-items: center;
+
+        &__a {
+            height: 25px;
+            left: 9.37%;
+            right: 82.72%;
+            top: calc(50% - 25px/2 + 0.5px);
+
+            font-family: 'LexendDeca';
+            font-size: 20px;
+            line-height: 23px;
+            letter-spacing: -0.3125px;
+
+            color: #575757;
+
+        }
+
+        &__ul {
+            gap: 40px;
+            margin-left: 94px;
+
+            &__li1 {
+                height: 16px;
+                left: 0%;
+                right: 88.48%;
+                top: calc(50% - 16px/2 - 0.5px);
+
+                font-family: 'LexendDeca';
+                font-size: 16px;
+                line-height: 15px;
+                /* identical to box height */
+
+                letter-spacing: -0.1px;
+
+                color: #333333;
+
+                mix-blend-mode: normal;
+                opacity: 0.5;
+            }
+        }
+
+    }
+}
+

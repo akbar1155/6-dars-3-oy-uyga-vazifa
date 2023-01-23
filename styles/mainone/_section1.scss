@@ -1,0 +1,54 @@
+.section1-1 {
+    background-color: white;
+    margin-top: 2%;
+    height: 600px;
+    justify-content: space-between;
+     &__div1>button{
+        margin-left: 50px;
+     }
+     &__img{
+        position: relative;
+        // top: 50px;
+     }
+    &__div1 {
+        &__h1 {
+            height: 128px;
+            left: 0%;
+            width: 450px;
+            right: -0.21%;
+            top: calc(50% - 128px/2 - 40px);
+            margin-top: 40%;
+            margin-left: 50px;
+            font-family: 'LexendDeca';
+            font-size: 56px;
+            line-height: 64px;
+            /* or 114% */
+
+            letter-spacing: -0.875px;
+
+            color: #575757;
+
+        }
+
+        &__p {
+            margin-left: 50px;
+            height: 56px;
+            width: 310px;
+            left: 0%;
+            right: 20%;
+            top: calc(50% - 56px/2 + 76px);
+
+            font-family: 'LexendDeca';
+            font-size: 18px;
+            line-height: 28px;
+            /* or 156% */
+
+            letter-spacing: -0.28125px;
+
+            color: #575757;
+
+            mix-blend-mode: normal;
+            opacity: 0.5;
+        }
+    }
+}
